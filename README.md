@@ -22,8 +22,10 @@ When complete
 cd project_slug
 git init
 python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 python -m build
+pip install .
 python -m pytest tests
 ```
 
