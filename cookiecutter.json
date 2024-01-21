@@ -1,0 +1,11 @@
+{
+  "full_name": "Alex Rowley",
+  "email": "alex.rowley@gmail.com",
+  "github_username": "abrowley",
+  "project_name": "Python Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "use_pytest": "y",
+  "command_line_interface": ["Argparse", "No command-line interface"],
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
